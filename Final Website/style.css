@@ -1,0 +1,64 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-left: auto;
+}
+
+li {
+    margin: auto;
+    display: inline-block;
+    text-align: center; /* Center text in list item */
+
+}
+
+li a {
+    display: block;
+    padding: 5px;
+    background-color: rgb(110, 0, 184);
+    font-size: 30px;
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change link color if necessary */
+    text-align: center; /* Ensure text inside the link is centered */
+   
+}
+.heading { 
+    margin-left: auto;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    color:rgb(110, 0, 184)
+}
+a:hover {
+    font-size: 50px;      /* Increase the font size when hovered */
+    color: #301c1c;       /* Optional: Change link color on hover */
+}
+body{
+    background-color: rgb(255, 208, 0);
+}
+h1{
+    font-size: 50px;
+    color: rgb(110, 0, 184);
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: rgb(110, 0, 184);
+}
+.index img{
+    margin-left: 43%;
+}
+.listings img{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+}
+img:hover{
+    height: 400px;
+    width: 400px;
+}
+iframe{
+    margin-left: 43%;
+}
